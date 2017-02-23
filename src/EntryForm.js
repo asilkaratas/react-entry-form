@@ -139,16 +139,16 @@ class EntryForm extends Component {
         <DateTimeInput mode="date" label="Start Date:" format="MM/DD/YYYY" 
           onChange={this.handleStartDate} 
           value={this.state.startDate} />
-
-        <DateTimeInput mode="time" label="Duration:" format="HH:mm"
-          onChange={this.handleDuration} 
-          value={durationMoment}/>
         
         <DateTimeInput mode="time" label="From:" format="HH:mm" lockable
           onChange={this.handleFrom} 
           onLock={this.toggleLock}
           locked={this.state.fromLocked}
           value={this.state.from}/>
+
+        <DateTimeInput mode="time" label="Duration:" format="HH:mm"
+          onChange={this.handleDuration} 
+          value={durationMoment}/>
         
         <DateTimeInput mode="time" label="To:" format="HH:mm" lockable
           onChange={this.handleTo} 
