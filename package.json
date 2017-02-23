@@ -10,7 +10,7 @@
     "react": "^15.4.2",
     "react-addons-update": "^15.4.2",
     "react-bootstrap": "^0.30.7",
-    "react-datetime": "^2.8.6",
+    "react-datetime": "https://github.com/asilkaratas/react-datetime/tarball/master",
     "react-dom": "^15.4.2"
   },
   "scripts": {
