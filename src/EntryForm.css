@@ -1,0 +1,13 @@
+.EntryForm-btn-container {
+	width: auto;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.EntryForm-btn-container > input {
+	width: 120px;
+}
+
+.EntryForm-btn-container > input:last-child {
+	margin-left: 10px;
+}
