@@ -42,7 +42,7 @@ class EntryForm extends Component {
     });
 
     if(!notesHasError) {
-      let starts = this.state.startDate.valueOf();
+      let starts = this.state.from.valueOf();
       let duration = this.state.duration.valueOf()/(60*1000);
 
       this.props.onSave({
